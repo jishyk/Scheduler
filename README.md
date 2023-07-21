@@ -10,3 +10,4 @@ I have the Past, Present, and Future colors in the scheduler to show more import
 ![Alt text](<Screenshot 2023-07-20 at 10.44.22 PM.png>)
 
 ### Deployed application
+https://jishyk.github.io/Scheduler/
