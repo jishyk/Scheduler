@@ -8,9 +8,6 @@ $(document).ready(function () {
     $(".time-block").each(function () {
       var hour = parseInt($(this).attr("id").split("-")[1]);
 
-
-      
-
       if (hour < currentHour) {
         $(this).addClass("past");
       } else if (hour === currentHour) {
@@ -22,9 +19,6 @@ $(document).ready(function () {
       }
     });
   }
-
-
-
   function loadSavedEvents() {
     $(".time-block").each(function () {
       var hour = $(this).attr("id");
@@ -35,9 +29,6 @@ $(document).ready(function () {
       }
     });
   }
-
-
-
   function saveEvent() {
     var hour = $(this).parent().attr("id");
     var eventText = $(this).siblings(".description").val();
